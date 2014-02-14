@@ -24,10 +24,18 @@ a:link, a:visited {
 
 ul li a, ul li a:visited {
      display:block;
-     color:#DCDCDC;
+     color:#fff;
      width:104px;
      height:auto;
      line-height:20px;
      padding:10px;
      text-align:center;
+}
+
+ul li a:hover {
+     display:block;
+     color:#fff;
+     background:#DCDCDC;
+     line-height:20px;
+     padding:10px;
 }
