@@ -27,7 +27,7 @@ ul li a, ul li a:visited {
      color:#fff;
      width:104px;
      height:auto;
-     line-height:20px;
+     line-height:30px;
      padding:10px;
      text-align:center;
 }
@@ -36,6 +36,6 @@ ul li a:hover {
      display:block;
      color:#fff;
      background:#DCDCDC;
-     line-height:50px;
+     line-height:30px;
      padding:10px;
 }
