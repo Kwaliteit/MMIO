@@ -34,11 +34,13 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul {
+	color: #FFF;
 	list-style: none;
 	margin: 0 auto;
 }
  
 .mainHeader nav ul li {
+	color: #FFF;
 	float: left;
 	display: inline;
 }
@@ -51,6 +53,7 @@ a:hover, a:active {
 
 .mainHeader nav a:hover, .mainHeader nav a:active, 
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	color: #FFF;
 	background-color: #DCDCDC;
 	text-shadow: none;
 }
@@ -73,6 +76,7 @@ a:hover, a:active {
 }
 
 .content1 {
+	width: 100%;
 	background-color: #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
