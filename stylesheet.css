@@ -46,6 +46,7 @@ a:hover, a:active {
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
 	display: inline-block;
 	padding: 10px 25px;
 	height: 20px;
