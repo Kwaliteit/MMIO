@@ -64,7 +64,6 @@ a:hover, a:active {
 }
 
 .container {
-	width: 100%;
 	line-height: 25px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -76,6 +75,7 @@ a:hover, a:active {
 }
 
 .content1 {
+	width: 100%;
 	background-color: #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
