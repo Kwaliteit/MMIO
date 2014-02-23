@@ -60,6 +60,7 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul li a {
+	color: #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
