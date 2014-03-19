@@ -25,108 +25,42 @@ a:hover, a:active {
 	margin: 2% 0; 
 }
 
-.mainHeader nav
-.mainHeader nav ul,
-.mainHeader nav li,
-.mainHeader nav a {
-	margin: 0;
-	padding: 0;
-	border: none;
-	outline: none;
-}
-
-ul..mainHeader nav {
-	margin: 150 px auto 0 auto;
-}
-
-..mainHeader nav {
-	height: 40 px;
-	width: 500px;
-	background: #ACACAC;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	background: linear-gradient(top, #ABABAB 0%, #BABABA 100%);
-	background: -webkit-linear-gradient(top, #ABABAB 0%, #BABABA 100%);
-	background: -moz-linear-gradient(top, #ABABAB 0%, #BABABA 100%);
-}
-
-.mainHeader nav li {
-	list-style: none;
-	float: left;
-	display: block;
+.mainHeader nav {
+	background-color: #ACACAC;
 	height: 40px;
-	position: relative;
-}
-
-.mainHeader nav li a {
-	display: block;
-	text-decoration: none;
-	font-family: Helvetica;
-	font-weight: bold;
-	color: #FFF;
-	font-size: 15px;
-	padding: 0 15px;
-	margin: 5px 0;
-	line-height: 30px;
-	border-left: 1px solid #FFF;
-	border-right: 1px solid #FFF;
-	transition: color .3s ease;
-	-webkit-transition: color .3s ease;
-	-moz-transition: color .3s ease;
-}
-
-.mainHeader nav li:first-child a {
-	border-left: none; 
-}
-
-.mainHeader nav li:last-child a {
-	border-right: none; 
-}
-
-.mainHeader nav li: hover > a {
-	color: #DCDCDC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .mainHeader nav ul {
-	position: absolute;
-	opacity: 0;
-	background: #DCDCDC;
-
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-
-	transition: opacity .25s ease .1s;
-	-webkit-transition: opacity .25s ease .1s;
-	-moz-transition: opacity .25s ease .1s;
+	list-style: none;
+	margin: 0 auto;
 }
-
-.mainHeader nav li:hover > ul {
-	opacity: 1px;
-}
-
+ 
 .mainHeader nav ul li {
-	height: 0px;
-	overflow: hidden;
-	padding: 0;
+	float: left;
+	display: inline;
 }
 
-.mainHeader nav li: hover > ul li {
-	height: auto;
-	overflow: visible;
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	color: #FFF;
+	background-color: #DCDCDC;
+	text-shadow: none;
 }
 
 .mainHeader nav ul li a {
-	width: 100px;
-	margin: 0;
-	padding: 5px 15 px;
-	border: none;
-	border-bottom: 1px solid #FFF;
-}
-
-.mainHeader nav ul li: last-child a {
-	border: none;
+	color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
 }
 
 .container {
