@@ -25,29 +25,21 @@ a:hover, a:active {
 	margin: 2% 0; 
 }
 
-.mainHeader nav {
-	background-color: #ACACAC;
-	height: 40px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-
-.menu
-.menu ul,
-.menu li,
-.menu a {
+.mainHeader nav
+.mainHeader nav ul,
+.mainHeader nav li,
+.mainHeader nav a {
 	margin: 0;
 	padding: 0;
 	border: none;
 	outline: none;
 }
 
-ul.menu {
+ul..mainHeader nav {
 	margin: 150 px auto 0 auto;
 }
 
-.menu {
+..mainHeader nav {
 	height: 40 px;
 	width: 500px;
 	background: #ACACAC;
@@ -59,7 +51,7 @@ ul.menu {
 	background: -moz-linear-gradient(top, #ABABAB 0%, #BABABA 100%);
 }
 
-.menu li {
+.mainHeader nav li {
 	list-style: none;
 	float: left;
 	display: block;
@@ -67,7 +59,7 @@ ul.menu {
 	position: relative;
 }
 
-.menu li a {
+.mainHeader nav li a {
 	display: block;
 	text-decoration: none;
 	font-family: Helvetica;
@@ -84,19 +76,19 @@ ul.menu {
 	-moz-transition: color .3s ease;
 }
 
-.menu li:first-child a {
+.mainHeader nav li:first-child a {
 	border-left: none; 
 }
 
-.menu li:last-child a {
+.mainHeader nav li:last-child a {
 	border-right: none; 
 }
 
-.menu li: hover > a {
+.mainHeader nav li: hover > a {
 	color: #DCDCDC;
 }
 
-.menu ul {
+.mainHeader nav ul {
 	position: absolute;
 	opacity: 0;
 	background: #DCDCDC;
@@ -110,22 +102,22 @@ ul.menu {
 	-moz-transition: opacity .25s ease .1s;
 }
 
-.menu li:hover > ul {
+.mainHeader nav li:hover > ul {
 	opacity: 1px;
 }
 
-.menu ul li {
+.mainHeader nav ul li {
 	height: 0px;
 	overflow: hidden;
 	padding: 0;
 }
 
-.menu li: hover > ul li {
+.mainHeader nav li: hover > ul li {
 	height: auto;
 	overflow: visible;
 }
 
-.menu ul li a {
+.mainHeader nav ul li a {
 	width: 100px;
 	margin: 0;
 	padding: 5px 15 px;
@@ -133,7 +125,7 @@ ul.menu {
 	border-bottom: 1px solid #FFF;
 }
 
-.menu ul li: last-child a {
+.mainHeader nav ul li: last-child a {
 	border: none;
 }
 
