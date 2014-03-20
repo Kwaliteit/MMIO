@@ -51,6 +51,7 @@ a {
   color: #DCDCDC;
 }
 .mainHeader nav ul li ul {
+  weight: 100%;
   padding: 0;
   position: absolute;
   top: 48px;
