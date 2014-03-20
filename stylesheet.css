@@ -20,6 +20,7 @@ a {
 }
 
 .mainHeader nav ul {
+  color: #ACACAC;
   text-align: left;
   display: inline;
   margin: 0;
@@ -46,7 +47,7 @@ a {
 }
 .mainHeader nav ul li:hover {
   background: #DCDCDC;
-  color: #fff;
+  color: #DCDCDC;
 }
 .mainHeader nav ul li ul {
   padding: 0;
