@@ -30,12 +30,13 @@ a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .mainHeader nav ul li {
+  color: #fff;
   font: bold 12px/18px sans-serif;
   display: inline-block;
   margin-right: -4px;
   position: relative;
   padding: 15px 20px;
-  background: #ACACAC;
+  background: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -44,7 +45,7 @@ a {
   transition: all 0.2s;
 }
 .mainHeader nav ul li:hover {
-  background: #DCDCDC;;
+  background: #DCDCDC;
   color: #fff;
 }
 .mainHeader nav ul li ul {
@@ -67,9 +68,9 @@ a {
 }
 
 .mainHeader nav ul li ul li { 
-  background: #555; 
+  background: #ACACAC; 
   display: block; 
-  color: #ACACAC;
+  color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
 
