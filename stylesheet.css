@@ -83,7 +83,7 @@ a {
   visibility: visible;
 }
 
-.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav a,.mainHeader nav a:hover, .mainHeader nav a:active, 
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
 	color: #FFF;
 	text-shadow: none;
