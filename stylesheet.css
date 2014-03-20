@@ -20,6 +20,7 @@ a {
 }
 
 .mainHeader nav ul {
+  width: 33%;
   color: #ACACAC;
   text-align: left;
   display: inline;
@@ -31,6 +32,7 @@ a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .mainHeader nav ul li {
+  width: 
   color: #ACACAC;
   font: bold 12px/18px sans-serif;
   display: inline-block;
