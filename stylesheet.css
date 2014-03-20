@@ -89,11 +89,6 @@ a {
 	text-shadow: none;
 }
 
-.mainHeader nav ul li:active {
-  background: #DCDCDC;
-  color: #DCDCDC;
-}
-
 .container {
 	line-height: 25px;
 	border-radius: 5px;
