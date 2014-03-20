@@ -47,9 +47,6 @@ a {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-  	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
 .mainHeader nav ul li:hover {
   background: #DCDCDC;
