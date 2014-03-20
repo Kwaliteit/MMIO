@@ -19,12 +19,6 @@ a {
 	margin: 2% 0; 
 }
 
-.mainHeader nav {
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-
 .mainHeader nav ul {
   color: #ACACAC;
   text-align: left;
@@ -35,6 +29,9 @@ a {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 .mainHeader nav ul li {
   color: #ACACAC;
