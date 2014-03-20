@@ -86,7 +86,6 @@ a {
 .mainHeader nav a:hover, .mainHeader nav a:active, 
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
 	color: #FFF;
-	background-color: #ACACAC;
 	text-shadow: none;
 }
 
