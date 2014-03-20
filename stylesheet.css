@@ -1,6 +1,7 @@
 body {
 	background-image: url('images/background.png');
 	text-align: left;
+	font-family:"Helvetica", serif;
 }
 
 a {
@@ -22,6 +23,7 @@ a {
 .mainHeader nav {
 	background-color: #ACACAC;
 	height: 40px;
+	font-weight: bold;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
