@@ -83,14 +83,15 @@ a {
   visibility: visible;
 }
 
-.mainHeader nav a,.mainHeader nav a:hover{
+.mainHeader nav a,.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
 	color: #FFF;
 	text-shadow: none;
 }
 
-.mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited  {
-	color: #FFF;
-	background: #DCDCDC;
+.mainHeader nav ul li:active {
+  background: #DCDCDC;
+  color: #DCDCDC;
 }
 
 .container {
