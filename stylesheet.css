@@ -82,6 +82,13 @@ a {
   visibility: visible;
 }
 
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	color: #FFF;
+	background-color: #DCDCDC;
+	text-shadow: none;
+}
+
 .container {
 	line-height: 25px;
 	border-radius: 5px;
