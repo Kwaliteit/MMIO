@@ -31,7 +31,7 @@ a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .mainHeader nav ul li {
-  width: 28%; 
+  width: 30%;
   color: #ACACAC;
   font: bold 12px/18px sans-serif;
   display: inline-block;
@@ -51,7 +51,6 @@ a {
   color: #DCDCDC;
 }
 .mainHeader nav ul li ul {
-  weight: 100%;
   padding: 0;
   position: absolute;
   top: 48px;
@@ -71,7 +70,6 @@ a {
 }
 
 .mainHeader nav ul li ul li { 
-  width: 100%;
   background: #ACACAC; 
   display: block; 
   color: #ACACAC;
