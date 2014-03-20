@@ -19,8 +19,11 @@ a {
 	margin: 2% 0; 
 }
 
+.mainHeader nav {
+  width: 100%;  
+}
+
 .mainHeader nav ul {
-  width: 100%;
   color: #ACACAC;
   text-align: left;
   display: inline;
