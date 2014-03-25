@@ -21,7 +21,7 @@ a {
 }
 
 .mainHeader nav {
-	background-color: #7A7A7A;
+	background-color: #828282;
 	height: 40px;
 	font-weight: bold;
 	border-radius: 5px;
@@ -140,7 +140,7 @@ a {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
-	background-color: #7A7A7A;
+	background-color: #828282;
 	margin: 2% 0;
 }
 
