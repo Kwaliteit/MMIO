@@ -159,3 +159,33 @@ a {
 	color: #FFF;
 	font-weight: bold;
 }
+
+@media only screen and (win-width: 150px) and (max-width: 600px)
+{
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+	
+	.mainHeader img {
+		width: 100%;
+	}
+	
+	.mainHeader nav {
+		height: 160px;
+	}
+	
+	.mainHeader nav ul {
+		padding-left: 0;
+	}
+	
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display:block;
+	}
