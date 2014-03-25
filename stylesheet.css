@@ -21,7 +21,7 @@ a {
 }
 
 .mainHeader nav {
-	background-color: #ACACAC;
+	background-color: #5E5E5E;
 	height: 40px;
 	font-weight: bold;
 	border-radius: 5px;
@@ -58,7 +58,7 @@ a {
 .mainHeader nav a:hover, .mainHeader nav a:active, 
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
 	color: #FFF;
-	background-color: #DCDCDC;
+	background-color: #9E9E9E;
 	text-shadow: none;
 }
 
@@ -140,7 +140,7 @@ a {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
-	background-color: #ACACAC;
+	background-color: #5E5E5E;
 	margin: 2% 0;
 }
 
