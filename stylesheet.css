@@ -81,12 +81,21 @@ a {
 	float: left;
 }
 
-.content1 {
+.content0 {
 	background-color: #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
 	padding: 3% 35% 5% 5%;
+	margin-top: 2%;
+}
+
+.content1 {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
 	margin-top: 2%;
 }
 
