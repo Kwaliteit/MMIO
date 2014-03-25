@@ -160,7 +160,7 @@ a {
 	font-weight: bold;
 }
 
-@media only screen and (win-width: 150px) and (max-width: 600px)
+@media only screen and (min-width: 150px) and (max-width: 600px)
 {
 	.body {
 		width: 90%;
