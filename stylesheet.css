@@ -100,7 +100,7 @@ a {
 }
 
 #image3 {
-	width: 100%;
+	float: left;
 }
 
 .content {
