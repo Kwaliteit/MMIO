@@ -94,9 +94,9 @@ a {
 	width: 60%;
 }
 
-#image {
- width: 30%;
- float: right;
+.img image {
+	width: 30%;
+	float: right;
 }
 
 .content1 {
