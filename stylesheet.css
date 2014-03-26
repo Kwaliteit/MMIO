@@ -104,6 +104,11 @@ a {
 	float: right;
 }
 
+#image2 {
+	height: 25%;
+	float: right;
+}
+
 .content1 {
 	background-color: #FFF;
 	border-radius: 5px;
