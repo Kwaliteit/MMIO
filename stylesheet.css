@@ -190,17 +190,4 @@ a {
 		display:block;
 	}
 	
-	.content {
-		width: 100%;
-		float: left;
-	}
-	
-	.content1 p, .content2 p, .content0 p {
-		width: 100%;
-	}
-	
-	.content1 {
-		width: auto;
-	}
-	
 }
