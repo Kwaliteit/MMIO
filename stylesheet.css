@@ -86,8 +86,12 @@ a {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
-	padding: 3% 40% 5% 5%;
+	padding: 3% 5%;
 	margin-top: 2%;
+}
+
+.content0 p {
+	width: 60%;
 }
 
 .content1 {
