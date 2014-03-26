@@ -94,7 +94,7 @@ a {
 	width: 60%;
 }
 
-.img image {
+#image .img {
 	width: 30%;
 	float: right;
 }
