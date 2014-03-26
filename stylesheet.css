@@ -195,4 +195,8 @@ a {
 		float: left;
 	}
 	
+	.content1 p, .content2 p, .content0 p {
+		width: 100%;
+	}
+	
 }
