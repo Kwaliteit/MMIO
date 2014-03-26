@@ -99,6 +99,10 @@ a {
 	float: right;
 }
 
+#image3 {
+	width: 100%;
+}
+
 .content {
 	width: 100%;
 	float: left;
