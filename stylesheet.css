@@ -135,6 +135,10 @@ a {
 	margin-top: 2%;
 }
 
+.content2 p {
+	width: 65%;
+}
+
 .content3 {
 	background-color: #FFF;
 	border-radius: 5px;
