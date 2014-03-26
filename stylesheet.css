@@ -190,4 +190,8 @@ a {
 		display:block;
 	}
 	
+	.content {
+		width: 100%;
+	}
+	
 }
