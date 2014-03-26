@@ -99,6 +99,11 @@ a {
 	float: right;
 }
 
+#image1 {
+	height: 50%;
+	float: right;
+}
+
 .content1 {
 	background-color: #FFF;
 	border-radius: 5px;
