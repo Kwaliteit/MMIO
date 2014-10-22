@@ -1,0 +1,19 @@
+/* CSS Document style.css */
+
+html,body{
+	margin: 0 auto;
+	padding: 0;
+	height: 100%; 
+	width: 100%;
+	background-image: url(background.jpg);
+	position: relative;
+	z-index:-2;	
+	color: white;
+	font-family: "Arial", serif;
+	
+}
+
+#footer{
+	font-size:10px;
+	margin-left: 24%;
+}

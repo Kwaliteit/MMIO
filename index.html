@@ -1,87 +1,76 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js"> 
 
-	<head>
-		<link rel="icon" type="image/png" href="images/favicon.png" />
-		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-		
-		<title> Michel Chau - Portfolio </title>
-		
-		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-		
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />		
-	</head>
+<head>
+<title>Semantic Web</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" /><style type="text/css">._css3m{display:none}</style>
 
-	<body class="body">
-		<header class="mainHeader">
-			<a href="index.html"><img src="images/header.png" alt="header"></a>
-			<nav>
-				<ul>
-					<li class="active"><a href="index.html">Homepagina</a></li>
-					<li><a href="mit.html">MIT</a></li>
-					<li><a href="strip.html">Strip</a></li>
-					<li><a href="rodedraad.html">Rode draad</a></li>
-					<li><a href="groepswerk.html">Groepswerk</a></li>
-					<li><a href="project.html">Project</a></li>
-					<li><a href="dump.html">Dump</a></li>
-				</ul>
-			</nav>
-		</header>
-		
-		<div class="container">
-			<div class="content">
-				<article class="content0">
-					<header>
-						<h1>Welkom op mijn website!</h1>
-					</header>
-					
-					<content>
-						<img id="image" src="images/design.png">
-						
-						<p>
-							<strong>
-							Ik ben Michel Chau, een eerstejaars bachelor informatiekunde student aan de Universiteit van Amsterdam.
-							Deze website is gemaakt voor het vak MMIO, afkorting van Multimedia- en Interactieontwerp. 
-							Dit is de naam voor de gecombineerde vakken Multimediaontwerpproject (MM) en Interactieontwerp (IO)
-							van de bachelor informatiekunde aan de Universiteit van Amsterdam.
-							Alle opdrachten die ik voor dit vak moet maken, plaats ik op deze website.
-							</strong>
-						</p>
-						
-						<p>
-							Deze periode heb ik veel geleerd, door het maken van de <a href="http://kwaliteit.github.io/MMIO/mit.html">MIT opdrachten</a>
-							heb ik geleerd waarbij je op moet letten bij het ontwerpen van een nieuw concept.
-						</p>
-					
-						<img id="image" src="http://www.wiggelewouda.nl/wp-content/uploads/pict_universiteitvanamsterdam.jpg">
-					
-						<p>
-							Voordat je een oplossing moet verzinnen voor een bepaald probleem, moet je eerst beginnen door 
-							wat op papier te zetten, zoals bijvoorbeeld een schets, woordenspin of een <a href="http://kwaliteit.github.io/MMIO/strip.html">strip</a>,
-							deze kan je vinden in de <a href="http://kwaliteit.github.io/MMIO/dump.html">dump</a> op de website.
-						</p>
+</head>
 
-						<p>
-							Als je een beter beeld hebt gekregen, kan het ontwerpen beginnen. Belangrijke ontwerpen om te maken zijn:
-							grafisch ontwerp, interactieontwerp en het technisch ontwerp. Bij de
-							<a href="http://kwaliteit.github.io/MMIO/rodedraad.html">rode draad opdracht</a> en het
-							<a href="http://kwaliteit.github.io/MMIO/groepswerk.html">onbegeleid groepswerk</a> hebben we deze ontwerpen gemaakt.
-						</p>
-						
-						<p>
-							En bij het <a href="http://kwaliteit.github.io/MMIO/project.html">project</a> hebben we geleerd alles toe te passen
-							wat we in de voorgaande weken hebben geleerd.
-						</p>
-					</content>
-				</article>
-			</div>
-		</div>
-		
-		<footer class="mainFooter">
-			<p>Copyright © 2014 Michel Chau. All rights reserved.</p>
-		</footer>
-		
-	</body>
-	
-</html> 
+
+<body>
+
+<div id="Application">
+
+<?php
+  include_once('semsol/ARC2.php'); /* ARC2 static class inclusion */ 
+ 
+ 
+  $dbpconfig = array(
+  "remote_store_endpoint" => "http://dbpedia.org/sparql",
+   );
+ 
+  $store = ARC2::getRemoteStore($dbpconfig); 
+ 
+  if ($errs = $store->getErrors()) {
+     echo "<h1>getRemoteSotre error<h1>" ;
+  }
+ 
+  $query = '
+      PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+      select distinct ?l ?c 
+         where {?c a rdfs:Class. ?c rdfs:label ?l}
+      limit 100
+  ';
+ 
+ 
+  $rows = $store->query($query, 'rows'); /* execute the query */
+ 
+  if ($errs = $store->getErrors()) {
+     echo "Query errors" ;
+     print_r($errs);
+  }
+ 
+  /* display the results in an HTML table */
+  echo "<table border='1'>" ;
+  foreach( $rows as $row ) { /* loop for each returned row */
+         print "<tr><td>" .$row['l'] . "</td><td>" . $row['c']. "</td></tr>";
+  }
+  echo "</table>"
+ 
+  ?>
+
+
+
+
+</div>
+
+<div id="footer">
+Kevin Lok, Michel Chau, Amar Bhikhie<br>
+&copy; 2014  All rights reserved | Universiteit van Amsterdam | studie Informatiekunde | Semantic web 2014
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
